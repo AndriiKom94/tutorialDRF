@@ -1,2 +1,40 @@
-# Project exclude paths
-/venv/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.vscode
+.vscode_root
+.vscode-root
+.settings.json
+setting.json
+.idea
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+config/local_settings.py
+config/develop.cfg
+config/prod.cfg
+config/test.cfg
+config/logs
+config/supervisor/*.log
+mail_template/files/credentials.json
+mail_template/files/token.pickle
+celerybeat.pid
+celerybeat-schedule
+!media/privacy_policy/
+media
+static
+dump.rdb
+**/migrations/*.py
+!**/migrations
+!**/migrations/__init__.py
+
+
